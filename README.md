@@ -30,5 +30,19 @@ Used frameworks:
   Slim
   MobileDetect
   Hashids
+  
+The API uses a MySql DB with these settings: 
+		'username' => 'usr_shorten',
+		'password' => 'pass_shorten',
+		'hostspec' => '127.0.0.1',
+		'database' => 'shorten_url'
+		
+The exported DB SQL is inside shorten_url.sql file.
+
+The files index.php, config_db.inc.php, Database.class.php, tests.php, Url.class.php, UrlHandler.class.php, UrlHitsHandler.class.php should be places together on Web server.
+
+The web server can be configured so that the API url calls don't have to contain "index.php".
+
+Here is the url to the simple test file: http://dev1.realbiz360.com/tests.php
 
 
