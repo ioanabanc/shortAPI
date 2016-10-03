@@ -25,4 +25,10 @@ http://dev1.realbiz360.com/index.php/{shortUrl}
   Method: GET
   Description: Redirects to corresponding url (desktop - default, phone, tablet)
   
-  
+
+Used frameworks:
+  Slim
+  MobileDetect
+  Hashids
+
+
